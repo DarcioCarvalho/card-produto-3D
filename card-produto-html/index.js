@@ -9,8 +9,6 @@ function activeAnimation() {
     item.classList.toggle('hide-button');
   }
 
-
-  console.log(images);
 }
 
 
