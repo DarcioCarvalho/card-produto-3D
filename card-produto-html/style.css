@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1E1E1E;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "lato", sans-serif;
+  color: #271A45;
+}
+
+#card {
+  width: 875px; /*875px */ 
+  height: 498px; 
+  background-color: #D9CDF7;
+  border-radius: 9.6px;
+
+  display: flex;
+  align-items: center;
+}
+
+#product-image {
+  position: relative;
+  display: inline-block;
+  width: 449px;
+  height: 222.96px;
+}
+
+#product-image .image-gif {
+  width: 449px;
+  height: 253px;
+}
+
+#button {
+  position: absolute;
+  left: 366px;
+  top: 8.26px;
+  width: 33px;
+  height: 23px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+.close-button {
+  visibility: hidden;
+}
+
+#info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-info .product-code {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.product-info .product-name {
+  font-family: "Crimson Pro", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.product-info .product-price {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.add-button {
+  border: 0.5px solid #271A45;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 8px 16px;
+
+  font-size: 12px;
+}
+
+.add-button:hover {
+  cursor: pointer;
+  /* opacity: 0.5; */
+  transition: 0.4s;
+  color: #D99DB4;
+  border: 0.5px solid #D99DB4;
+}
+
+.hide-image,
+.hide-button {
+  display: none;
+}
